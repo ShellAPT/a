@@ -1,0 +1,489 @@
+[12:36:59] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.8
+[12:36:59] [main/INFO]: Loading 160 mods:
+	- antixray 1.4.6
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- balm-fabric 21.0.20
+	   \-- kuma_api 21.0.5-SNAPSHOT
+	- c2me 0.2.0+alpha.11.109+1.21
+	   |-- c2me-base 0.2.0+alpha.11.109+1.21
+	   |-- c2me-client-uncapvd 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-general-threading-issues 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.11.109+1.21
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.11.109+1.21
+	   |-- c2me-notickvd 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-allocs 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-chunk-access 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-chunkio 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-math 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-scheduling 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-worldgen-general 0.2.0+alpha.11.109+1.21
+	   |-- c2me-opts-worldgen-vanilla 0.2.0+alpha.11.109+1.21
+	   |-- c2me-rewrites-chunk-serializer 0.2.0+alpha.11.109+1.21
+	   |-- c2me-rewrites-chunkio 0.2.0+alpha.11.109+1.21
+	   |-- c2me-server-utils 0.2.0+alpha.11.109+1.21
+	   |-- c2me-threading-chunkio 0.2.0+alpha.11.109+1.21
+	   |-- c2me-threading-lighting 0.2.0+alpha.11.109+1.21
+	   |-- c2me-threading-worldgen 0.2.0+alpha.11.109+1.21
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- net_objecthunter_exp4j 0.4.8
+	   \-- org_threadly_threadly 7.0
+	- chunky 1.4.16
+	- clumps 18.0.0.2
+	- collective 7.87
+	- crashexploitfixer 1.1.0
+	- debugify 1.21+1.0
+	- disableportalchecks 1.0.0
+	- disconnect-packet-fix 1.0.0
+	- dslp 1.2
+	- e4mc_minecraft 5.2.1
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.16.8
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.0.0
+	- geyser-fabric 2.4.4-SNAPSHOT
+	   |-- cloud 2.0.0-beta.7
+	   |    |-- fabric-permissions-api-v0 0.3.1
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.8
+	   |    |-- org_incendo_cloud-core 2.0.0-rc.2
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack_ 2.0.0-beta.7
+	   |    \-- org_incendo_cloud-services 2.0.0-rc.2
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.17.0
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- io_airlift_aircompressor 0.25
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-dns 4.1.107
+	   |-- io_netty_netty-codec-haproxy 4.1.107
+	   |-- io_netty_netty-resolver-dns-classes-macos 4.1.107
+	   |-- net_bytebuddy_byte-buddy 1.14.9
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.15.0
+	   |-- net_kyori_adventure-key 4.15.0
+	   |-- net_kyori_adventure-nbt 4.15.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.15.0
+	   |-- net_kyori_adventure-text-serializer-json 4.15.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.15.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.15.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.15.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.0.0
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.1
+	   |-- org_lanternpowered_lmbda 2.0.0
+	   \-- org_yaml_snakeyaml 2.2
+	- headfix 1.3.1
+	- inventorytotem 3.3
+	- jade 15.1.5+fabric
+	- java 21
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- ksyxis 1.3.2
+	- lake_crash_fix 1.0
+	- lithium 0.13.1
+	- memory-check 1.3
+	- minecraft 1.21
+	- netherportalfix 21.0.2
+	- notenoughcrashes 4.4.8+1.21
+	- one-player-sleep 1.0.0
+	- placeholder-api 2.4.1+1.21
+	- recipecooldown 1.17.1-1.0.0
+	- servercore 1.5.4+1.21
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- spark 1.10.109
+	   \-- fabric-permissions-api-v0 0.3.1
+	- styledchat 2.6.0+1.21
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- player-data-api 0.6.0+1.21
+	   \-- predicate-api 0.5.1+1.21
+	- tt20 0.7.0
+	   \-- net_snackbag_shit_shit 1.2.3
+	- voicechat 1.21.1-2.5.25
+	   \-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	- yet_another_config_lib_v3 3.6.1+1.21-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.10.0
+	   |-- com_twelvemonkeys_common_common-io 3.10.0
+	   |-- com_twelvemonkeys_common_common-lang 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.10.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.10.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[12:36:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/LOL/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:36:59] [main/INFO]: Compatibility level set to JAVA_17
+[12:36:59] [main/INFO]: Compatibility level set to JAVA_21
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[12:37:00] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[12:37:00] [main/INFO]: Disabling com.ishland.c2me.opts.chunk_access.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12:37:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[12:37:00] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[12:37:00] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[12:37:00] [main/INFO]: Disabling com.ishland.c2me.threading.worldgen.mixin
+[12:37:00] [main/WARN]: Mod 'c2me' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[12:37:00] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 2 override(s) found
+[12:37:01] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[12:37:01] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[12:37:01] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[12:37:01] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[12:37:01] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[12:37:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:37:12] [main/INFO]: Successfully initialized antixray for fabric
+[12:37:12] [main/INFO]: Loading Collective version 7.87.
+[12:37:12] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[12:37:12] [main/INFO]: Successfully Debugify'd your game!
+[12:37:12] [main/INFO]: Removing portal checks...
+[12:37:12] [main/INFO]: Disconnect Packet Fix has started.
+[12:37:13] [main/INFO]: Loading extensions...
+[12:37:13] [main/INFO]: Loaded 0 extension(s)
+[12:37:13] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[12:37:13] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[12:37:13] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[12:37:13] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it.
+[12:37:13] [main/INFO]: [STDOUT]: One Player Sleep Mod Initialized!
+[12:37:13] [main/INFO]: [RecipeCooldown] RecipeCooldown loaded
+[12:37:13] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[12:37:13] [main/INFO]: Starting TT20...
+[12:37:13] [main/INFO]: (TT20) Checking for updates...
+[12:37:14] [main/INFO]: (TT20) Running the latest version
+[12:37:14] [main/INFO]: [voicechat] Compatibility version 18
+[12:37:14] [main/INFO]: [voicechat] Loading plugins
+[12:37:14] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[12:37:14] [main/INFO]: [voicechat] Initializing plugins
+[12:37:14] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[12:37:14] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[12:37:14] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:37:16] [main/INFO]: Loaded 1290 recipes
+[12:37:16] [main/INFO]: Loaded 1399 advancements
+[12:37:16] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.151 ms
+[12:37:17] [Server thread/INFO]: Starting background profiler...
+[12:37:17] [Server thread/INFO]: Starting minecraft server version 1.21
+[12:37:17] [Server thread/INFO]: Loading properties
+[12:37:17] [Server thread/INFO]: Default game type: SURVIVAL
+[12:37:17] [Server thread/INFO]: Generating keypair
+[12:37:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:37:17] [Server thread/INFO]: Using epoll channel type
+[12:37:17] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[12:37:17] [Server thread/INFO]: Using epoll channel type
+[12:37:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:37:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:37:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:37:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:37:17] [Server thread/INFO]: Preparing level "world"
+[12:37:17] [Server thread/INFO]: Enforcing safe world random access
+[12:37:18] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[12:37:18] [e4mc_minecraft-init/INFO]: using relay ap
+[12:37:18] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x9fbb18bd, QuicStreamAddress{streamId=0}]
+[12:37:18] [nioEventLoopGroup-2-1/INFO]: control channel write complete
+[12:37:18] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[12:37:18] [nioEventLoopGroup-2-1/INFO]: Domain assigned: term-source.ap.e4mc.link
+[12:37:20] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[12:37:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:37:20] [Server thread/INFO]: Time elapsed: 21 ms
+[12:37:20] [Server thread/INFO]: Done (2.735s)! For help, type "help"
+[12:37:20] [Server thread/INFO]: JMX monitoring enabled
+[12:37:20] [Server thread/INFO]: ******************************************
+[12:37:20] [Server thread/INFO]: 
+[12:37:20] [Server thread/INFO]: Loading Geyser version 2.4.4-b700 (git-master-74b25ea)
+[12:37:20] [Server thread/INFO]: 
+[12:37:20] [Server thread/INFO]: ******************************************
+[12:37:23] [epollEventLoopGroup-4-1/INFO]: Started Geyser on UDP port 19132
+[12:37:23] [Server thread/INFO]: Done (3.063s)! Run /geyser help for help!
+[12:37:23] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[12:37:23] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[12:37:23] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[12:37:23] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[12:37:23] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[12:37:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[12:37:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3204ms or 64 ticks behind
+[12:37:51] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x2c7ff403, QuicStreamAddress{streamId=1}]
+[12:37:51] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x2c7ff403, QuicStreamAddress{streamId=1}] (MC: [id: 0x2ff91180, L:local:E:7049328c ! R:local:e4mc-relay])
+[12:37:51] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x2c7ff403, QuicStreamAddress{streamId=1}] (MC: [id: 0x2ff91180, L:local:E:7049328c ! R:local:e4mc-relay])
+[13:04:11] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0xb6b7fdcf, QuicStreamAddress{streamId=5}]
+[13:04:11] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0xb6b7fdcf, QuicStreamAddress{streamId=5}] (MC: [id: 0xb6622edf, L:local:E:c662b9d2 ! R:local:e4mc-relay])
+[13:04:11] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0xb6b7fdcf, QuicStreamAddress{streamId=5}] (MC: [id: 0xb6622edf, L:local:E:c662b9d2 ! R:local:e4mc-relay])
+[13:04:47] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0xa70fdda2, QuicStreamAddress{streamId=9}]
+[13:04:47] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0xa70fdda2, QuicStreamAddress{streamId=9}] (MC: [id: 0xdec9ca28, L:local:E:1ffb45fe ! R:local:e4mc-relay])
+[13:04:47] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0xa70fdda2, QuicStreamAddress{streamId=9}] (MC: [id: 0xdec9ca28, L:local:E:1ffb45fe ! R:local:e4mc-relay])
+[13:06:01] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x18d938d8, QuicStreamAddress{streamId=13}]
+[13:06:04] [Server thread/INFO]: VuPro[local:E:bf49ce70] logged in with entity id 1 at (38.340023546617175, 35.0, 693.6999999880791)
+[13:06:04] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[13:06:04] [Server thread/INFO]: VuPro joined the game
+[13:06:05] [Server thread/INFO]: [voicechat] Received secret request of VuPro (18)
+[13:06:05] [Server thread/INFO]: [voicechat] Sent secret to VuPro
+[13:06:34] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x8e064668, QuicStreamAddress{streamId=17}]
+[13:06:34] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x8e064668, QuicStreamAddress{streamId=17}] (MC: [id: 0x6435be65, L:local:E:0525e3e0 ! R:local:e4mc-relay])
+[13:06:34] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x8e064668, QuicStreamAddress{streamId=17}] (MC: [id: 0x6435be65, L:local:E:0525e3e0 ! R:local:e4mc-relay])
+[13:06:35] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x60f00f1b, QuicStreamAddress{streamId=21}]
+[13:06:36] [Server thread/INFO]: nhathh[local:E:7f14b1c3] logged in with entity id 386 at (32.746255463869296, 64.0, 697.3675191798176)
+[13:06:36] [Server thread/INFO]: nhathh joined the game
+[13:06:41] [Server thread/INFO]: <VuPro> skibid
+[13:07:17] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x60f00f1b, QuicStreamAddress{streamId=21}] (MC: [id: 0xc063c823, L:local:E:7f14b1c3 - R:local:e4mc-relay])
+[13:07:17] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x60f00f1b, QuicStreamAddress{streamId=21}] (MC: [id: 0xc063c823, L:local:E:7f14b1c3 ! R:local:e4mc-relay])
+[13:07:17] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x60f00f1b, QuicStreamAddress{streamId=21}] (MC: [id: 0xc063c823, L:local:E:7f14b1c3 ! R:local:e4mc-relay])
+[13:07:17] [Server thread/INFO]: nhathh lost connection: Disconnected
+[13:07:17] [Server thread/INFO]: nhathh left the game
+[13:07:17] [Server thread/INFO]: [voicechat] Disconnecting client nhathh
+[13:07:51] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x42491c22, QuicStreamAddress{streamId=25}]
+[13:07:51] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x42491c22, QuicStreamAddress{streamId=25}] (MC: [id: 0x67727861, L:local:E:76c439bc ! R:local:e4mc-relay])
+[13:07:51] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x42491c22, QuicStreamAddress{streamId=25}] (MC: [id: 0x67727861, L:local:E:76c439bc ! R:local:e4mc-relay])
+[13:07:51] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0xe2d477d6, QuicStreamAddress{streamId=29}]
+[13:07:53] [Server thread/INFO]: nhathh[local:E:37ce953a] logged in with entity id 547 at (32.746255463869296, 64.0, 697.3675191798176)
+[13:07:53] [Server thread/INFO]: nhathh joined the game
+[13:07:57] [Server thread/INFO]: <VuPro> sao day
+[13:09:10] [Server thread/INFO]: <nhathh> mãi ms vào đc
+[13:09:14] [Server thread/INFO]: <VuPro> sao
+[13:09:21] [Server thread/INFO]: <VuPro> tao vao co sao dau
+[13:09:31] [Server thread/INFO]: <nhathh> bh bth r
+[13:09:40] [Server thread/INFO]: <VuPro> ok
+[13:10:14] [Server thread/INFO]: <VuPro> lag vai
+[13:10:23] [Server thread/INFO]: <VuPro> dung canh chuong bo :
+[13:11:34] [Server thread/INFO]: <VuPro> tao di dao day
+[13:11:37] [Server thread/INFO]: <nhathh> uk
+[13:11:44] [Server thread/INFO]: <VuPro> may ra lay mia di
+[13:14:35] [Server thread/INFO]: The difficulty has been set to Peaceful
+[13:18:15] [Server thread/INFO]: <VuPro> tao ben duoi nay
+[13:19:01] [Server thread/INFO]: <nhathh> kc nay
+[13:19:10] [Server thread/INFO]: <VuPro> ok
+[13:20:52] [Server thread/INFO]: <VuPro> cai gi day
+[13:20:55] [Server thread/INFO]: <nhathh> ??
+[13:21:08] [Server thread/INFO]: <VuPro> tieng gi day
+[13:21:17] [Server thread/INFO]: <nhathh> co tieng j dau
+[13:21:25] [Server thread/INFO]: <VuPro> tao nghe thay tieng
+[13:22:00] [Server thread/INFO]: <VuPro> may xuong sau the
+[13:22:07] [Server thread/INFO]: <nhathh> thi sao
+[13:22:18] [Server thread/INFO]: <nhathh> xuong sau nhieu kc
+[13:22:24] [Server thread/INFO]: <VuPro> giau
+[13:22:27] [Server thread/INFO]: <VuPro> tu ban :)
+[13:22:31] [Server thread/INFO]: <nhathh> =))
+[13:23:57] [Server thread/INFO]: <VuPro> cho moi nay
+[13:24:01] [Server thread/INFO]: <nhathh> uk
+[13:24:01] [Server thread/INFO]: <VuPro> to vai
+[13:27:13] [Server thread/INFO]: <VuPro> co ham mo nay
+[13:27:18] [Server thread/INFO]: <nhathh> doi t
+[13:28:47] [Server thread/INFO]: <VuPro> nhanh len
+[13:30:23] [Server thread/INFO]: <VuPro> tao tuong may len
+[13:31:55] [Server thread/INFO]: <VuPro> doi tao ti
+[13:31:58] [Server thread/INFO]: <nhathh> uk
+[13:35:44] [Server thread/INFO]: <VuPro> day
+[13:35:49] [Server thread/INFO]: <VuPro> ???
+[13:35:52] [Server thread/INFO]: <VuPro> dmm
+[13:35:56] [Server thread/INFO]: <nhathh> =))
+[13:36:01] [Server thread/INFO]: <VuPro> thang cho
+[13:38:43] [Server thread/INFO]: <nhathh> t vao nether day
+[13:38:45] [Server thread/INFO]: <VuPro> ok
+[13:39:29] [Server thread/INFO]: <VuPro> lai ra cho khac roi
+[13:39:37] [Server thread/INFO]: No return portal found
+[13:41:10] [Server thread/INFO]: <VuPro> tao ve cho cu roi nay :))
+[13:41:14] [Server thread/INFO]: <nhathh> uk
+[13:41:29] [Server thread/INFO]: <VuPro> co thach nhu
+[13:41:31] [Server thread/INFO]: <VuPro> lay ko
+[13:41:36] [Server thread/INFO]: <nhathh> tuy m
+[13:42:42] [Server thread/INFO]: <VuPro> lai co ham mo
+[13:42:47] [Server thread/INFO]: <nhathh> v
+[13:44:21] [Server thread/INFO]: <VuPro> 2 cai ruong, deo co gi :)
+[13:44:29] [Server thread/INFO]: <nhathh> =))
+[13:44:46] [Server thread/INFO]: <VuPro> tao lac roi
+[13:44:59] [Server thread/INFO]: <nhathh> hetcuu
+[13:47:19] [Server thread/INFO]: <VuPro> co kc :)
+[13:47:21] [Server thread/INFO]: <VuPro> yes
+[13:47:24] [Server thread/INFO]: <nhathh> ngon
+[13:47:29] [Server thread/INFO]: <VuPro> 2 :))
+[13:49:51] [Server thread/INFO]: <nhathh> t tim thay cai phao dai moi nay
+[13:49:54] [Server thread/INFO]: <VuPro> ok
+[13:50:01] [Server thread/INFO]: <VuPro> tao lac :)
+[13:50:04] [Server thread/INFO]: <nhathh> =))
+[13:50:09] [Server thread/INFO]: <VuPro> cuu
+[13:50:49] [Server thread/INFO]: <VuPro> tao ve cho cu
+[13:50:55] [Server thread/INFO]: <VuPro> ko biet duong ra
+[13:51:29] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0xe2d477d6, QuicStreamAddress{streamId=29}] (MC: [id: 0x9d34c665, L:local:E:37ce953a - R:local:e4mc-relay])
+[13:51:29] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0xe2d477d6, QuicStreamAddress{streamId=29}] (MC: [id: 0x9d34c665, L:local:E:37ce953a ! R:local:e4mc-relay])
+[13:51:29] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0xe2d477d6, QuicStreamAddress{streamId=29}] (MC: [id: 0x9d34c665, L:local:E:37ce953a ! R:local:e4mc-relay])
+[13:51:29] [Server thread/INFO]: nhathh lost connection: Disconnected
+[13:51:29] [Server thread/INFO]: nhathh left the game
+[13:51:29] [Server thread/INFO]: [voicechat] Disconnecting client nhathh
+[13:51:30] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x407ff214, QuicStreamAddress{streamId=33}]
+[13:51:30] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x407ff214, QuicStreamAddress{streamId=33}] (MC: [id: 0x8a561787, L:local:E:ef08d0bf ! R:local:e4mc-relay])
+[13:51:30] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x407ff214, QuicStreamAddress{streamId=33}] (MC: [id: 0x8a561787, L:local:E:ef08d0bf ! R:local:e4mc-relay])
+[13:51:30] [Server thread/INFO]: <VuPro> lai ham mo nua :))
+[13:54:20] [Server thread/INFO]: Incorrect argument for command
+[13:54:20] [Server thread/INFO]: gamerule keepinventory true<--[HERE]
+[13:54:41] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[13:55:31] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x98df19fc, QuicStreamAddress{streamId=37}]
+[13:55:32] [Server thread/INFO]: nhathh[local:E:c5243c0c] logged in with entity id 7941 at (424.69999998807907, 30.862124716749065, -19.67637297754839)
+[13:55:32] [Server thread/INFO]: nhathh joined the game
+[13:55:41] [Server thread/INFO]: nhathh tried to swim in lava
+[13:55:46] [Server thread/INFO]: <nhathh> =))
+[13:55:53] [Server thread/INFO]: <nhathh> m vai
+[13:55:56] [Server thread/INFO]: <nhathh> t thoat kip
+[13:56:00] [Server thread/INFO]: <VuPro> :))
+[13:58:06] [Server thread/INFO]: <VuPro> hup kc
+[14:04:13] [Server thread/INFO]: <VuPro> tao lai lac tiep
+[14:04:16] [Server thread/INFO]: <nhathh> v
+[14:04:21] [Server thread/INFO]: <VuPro> cuu
+[14:04:25] [Server thread/INFO]: <nhathh> tp
+[14:04:28] [Server thread/INFO]: <VuPro> thoi
+[14:04:59] [Server thread/INFO]: <VuPro> ko thay trial chamber nhi?
+[14:05:12] [Server thread/INFO]: <nhathh> chac do den
+[14:05:46] [Server thread/INFO]: <VuPro> bu kc
+[14:07:11] [Server thread/INFO]: [VuPro: Teleported VuPro to nhathh]
+[14:07:14] [Server thread/INFO]: <nhathh> v
+[14:07:15] [Server thread/INFO]: <VuPro> hello
+[14:08:27] [Server thread/INFO]: <VuPro> tao day do
+[14:10:08] [Server thread/INFO]: <VuPro> hieu suat 2 nay
+[14:10:11] [Server thread/INFO]: <VuPro> 4
+[14:11:18] [Server thread/INFO]: <VuPro> jmat dau roi
+[14:11:41] [Server thread/INFO]: Incorrect argument for command
+[14:11:41] [Server thread/INFO]: effect @p glowing infinit 255<--[HERE]
+[14:11:49] [Server thread/INFO]: <nhathh> mat j
+[14:11:56] [Server thread/INFO]: <VuPro> ko co j
+[14:11:59] [Server thread/INFO]: nhathh has made the advancement [Local Brewery]
+[14:12:05] [Server thread/INFO]: VuPro has made the advancement [Local Brewery]
+[14:12:29] [Server thread/INFO]: Incorrect argument for command
+[14:12:29] [Server thread/INFO]: effect @p glowing /effect @p glowing infinite 255<--[HERE]
+[14:13:02] [Server thread/INFO]: Applied effect Glowing to nhathh
+[14:13:10] [Server thread/INFO]: Applied effect Glowing to VuPro
+[14:13:26] [Server thread/INFO]: <VuPro> tao nhin dc mau voi giap cua may
+[14:15:25] [Server thread/INFO]: <VuPro> hihi
+[14:16:21] [Server thread/INFO]: <nhathh> phải bỏ bớt redstone r
+[14:16:25] [Server thread/INFO]: <VuPro> ko
+[14:16:30] [Server thread/INFO]: <VuPro> lam ruong moi :)
+[14:17:02] [Server thread/INFO]: <nhathh> di ngu de
+[14:19:25] [Server thread/INFO]: <VuPro> cay tre moc cao vai
+[14:19:42] [Server thread/INFO]: <nhathh> =))
+[14:20:31] [Server thread/INFO]: <VuPro> hong riu roi :)
+[14:20:41] [Server thread/INFO]: <nhathh> =))
+[14:21:34] [Server thread/INFO]: <VuPro> 2 do ben
+[14:22:14] [Server thread/INFO]: <VuPro> ve riu
+[14:22:16] [Server thread/INFO]: <VuPro> vo
+[14:22:50] [Server thread/INFO]: <nhathh> =))
+[14:23:02] [Server thread/INFO]: <VuPro> tao che riu kc
+[14:24:10] [Server thread/INFO]: <nhathh> =))
+[14:24:27] [Server thread/WARN]: VuPro moved wrongly!
+[14:26:19] [Server thread/INFO]: <VuPro> hong me giap
+[14:26:27] [Server thread/INFO]: <nhathh> =))
+[14:26:57] [Server thread/INFO]: <nhathh> =))
+[14:28:48] [Server thread/INFO]: <nhathh> nao
+[14:28:52] [Server thread/INFO]: <VuPro> :))
+[14:29:15] [Server thread/INFO]: <VuPro> hong luon can cau
+[14:31:34] [Server thread/INFO]: <VuPro> hihi
+[14:32:31] [Server thread/INFO]: <nhathh> chan v
+[14:32:34] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x98df19fc, QuicStreamAddress{streamId=37}] (MC: [id: 0xaacebdbf, L:local:E:c5243c0c ! R:local:e4mc-relay])
+[14:32:34] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x98df19fc, QuicStreamAddress{streamId=37}] (MC: [id: 0xaacebdbf, L:local:E:c5243c0c ! R:local:e4mc-relay])
+[14:32:34] [Server thread/INFO]: nhathh lost connection: Timed out
+[14:32:34] [Server thread/INFO]: nhathh left the game
+[14:32:34] [Server thread/INFO]: [voicechat] Disconnecting client nhathh
+[14:32:38] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x18d938d8, QuicStreamAddress{streamId=13}] (MC: [id: 0x6999e52a, L:local:E:bf49ce70 - R:local:e4mc-relay])
+[14:32:38] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x18d938d8, QuicStreamAddress{streamId=13}] (MC: [id: 0x6999e52a, L:local:E:bf49ce70 ! R:local:e4mc-relay])
+[14:32:38] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x18d938d8, QuicStreamAddress{streamId=13}] (MC: [id: 0x6999e52a, L:local:E:bf49ce70 ! R:local:e4mc-relay])
+[14:32:38] [Server thread/INFO]: VuPro lost connection: Disconnected
+[14:32:38] [Server thread/INFO]: VuPro left the game
+[14:32:38] [Server thread/INFO]: [voicechat] Disconnecting client VuPro
+[14:32:39] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x3c287edc, QuicStreamAddress{streamId=41}]
+[14:32:39] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x3c287edc, QuicStreamAddress{streamId=41}] (MC: [id: 0x73d6de3b, L:local:E:4c2611ec ! R:local:e4mc-relay])
+[14:32:39] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x3c287edc, QuicStreamAddress{streamId=41}] (MC: [id: 0x73d6de3b, L:local:E:4c2611ec ! R:local:e4mc-relay])
+[14:32:47] [nioEventLoopGroup-2-1/INFO]: channel active: [id: 0x295d7f18, QuicStreamAddress{streamId=45}]
+[14:32:48] [Server thread/INFO]: nhathh[local:E:49a08595] logged in with entity id 15431 at (43.5, 64.5625, 708.5)
+[14:32:48] [Server thread/INFO]: nhathh joined the game
+[14:32:49] [Server thread/INFO]: Stopping the server
+[14:32:50] [Server thread/INFO]: Shutting down Geyser.
+[14:32:50] [nioEventLoopGroup-2-1/INFO]: channel inactive(from MC): [id: 0x295d7f18, QuicStreamAddress{streamId=45}] (MC: [id: 0x4d6fd857, L:local:E:49a08595 ! R:local:e4mc-relay])
+[14:32:50] [nioEventLoopGroup-2-1/INFO]: channel inactive(from Quiclime): [id: 0x295d7f18, QuicStreamAddress{streamId=45}] (MC: [id: 0x4d6fd857, L:local:E:49a08595 ! R:local:e4mc-relay])
+[14:32:50] [Server thread/INFO]: Geyser shutdown successfully.
+[14:32:52] [Server thread/INFO]: Stopping server
+[14:32:52] [Server thread/INFO]: Saving players
+[14:32:52] [Server thread/INFO]: nhathh lost connection: Server closed
+[14:32:52] [Server thread/INFO]: nhathh left the game
+[14:32:52] [Server thread/INFO]: Saving worlds
+[14:32:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:32:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:32:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:32:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:32:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:32:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:32:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
